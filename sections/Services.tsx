@@ -15,6 +15,7 @@ const Services = () => {
         </div>
         <div className="flex gap-10  flex-col">
           <p className=" text-gray-500 text-[0.99rem]">
+            
             Welcome to BPS Dynamic, where your business success in the cloud is
             our top priority. We provide expert cloud consulting and training
             services tailored to your unique needs. From comprehensive framework
