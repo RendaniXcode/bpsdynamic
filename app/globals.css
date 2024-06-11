@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+.wrapper{
+  height:450px;
+  width:50px;
+  position:relative;
+  margin:auto;
+  background:#ccc;
+  overflow:hidden;
+}
+
+.wrapper::after {
+  height:448px;
+  width:48px;
+  content:"";
+  position:absolute;
+  border:solid 1px white;
+}
+
+.box{
+  height:50px;
+  width:50px;
+  position:absolute;
+  background:red;
+  font-size:25px;
+  line-height:50px;
+  text-align:center;
+  
+}
+
+
+
+.boxes {
+  position:relative;
+  bottom:-50px;
+}
+
+.nav {
+  position:relative;
+  text-align:center;
+ 
+  color:white;
+  font-size:20px;
+  margin:20px 0;
+}
+
+
+
+
+
+.scroll {
+    position: relative;
+    width: 700px;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+    mask-image: linear-gradient(10deg, transparent, #FE4D1A 20%, #FE4D1A 78%, transparent);
+  }
+  
+  .scroll div {
+    white-space: nowrap;
+    animation: animate var(--t) linear infinite;
+    transform: translateY(-100%);
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .scroll div img {
+    margin: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .scroll2 {
+    position: relative;
+    width: 700px;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+    mask-image: linear-gradient(10deg, transparent, #FE4D1A 20%, #FE4D1A 78%, transparent);
+  }
+  
+  .scroll2 div {
+    white-space: nowrap;
+    animation: animate2 var(--t) linear infinite;
+  }
+  
+  @keyframes animate2 {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .scroll2 div img {
+    margin: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 926px) and (max-width: 1133px) {
+    .about {
+      width: 100% !important;
+    }
+    .pics {
+      display: none;
+    }
+  }
+  @media (min-width: 926px) and (max-width: 1140px) {
+    .boxWidthdiv {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+    .boxWidth1 {
+      width: 100% !important;
+    }
+    .boxWidth2 {
+      width: 100% !important;
+      justify-content: center !important;
+    }
+  }
+  @media (min-width: 1140px) and (max-width: 1414px) {
+    .boxserve {
+      font-size: 13px;
+      gap: 10px;
+      width: 44% !important;
+    }
+  }
+  
+#closee{
+  color: black !important;
+}
