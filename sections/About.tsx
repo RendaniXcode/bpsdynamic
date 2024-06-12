@@ -27,7 +27,7 @@ const About = () => {
         <img
           src="/images/change2.jpg"
           alt="hero"
-          className="rounded-xl w-full  md:w-[500px] h-[308px] md:h-[630px]"
+          className="rounded-xl w-[310px]  md:w-[500px] h-[308px] md:h-[630px]"
         />
       </div>
       <div className="about bg-secondary w-full md:w-[55%] border py-14 px-5 rounded-xl flex flex-col  gap-8">
