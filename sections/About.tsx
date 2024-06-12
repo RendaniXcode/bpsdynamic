@@ -20,14 +20,14 @@ const About = () => {
   };
   return (
     <section
-      className="mt-10 md:mt-20 flex flex-col md:flex-row items-center gap-10 md:gap-14"
+      className="mt-10 md:mt-20 flex flex-col md:flex-row items-center gap-10"
       id="about"
     >
-      <div className="w-full md:w-[50%] h-f">
+      <div className="w-full md:w-[50%] flex justify-center">
         <img
           src="/images/change2.jpg"
           alt="hero"
-          className="rounded-xl w-full  md:w-[1000px] h-[308px] md:h-[600px]"
+          className="rounded-xl w-full  md:w-[500px] h-[308px] md:h-[630px]"
         />
       </div>
       <div className="about bg-secondary w-full md:w-[55%] border py-14 px-5 rounded-xl flex flex-col  gap-8">
@@ -74,7 +74,7 @@ const About = () => {
           </div>
         </div>
         <Link
-          href=""
+          href="/services"
           className="flex items-center gap-2 bg-primary text-white rounded-[2rem] py-2 px-4 w-fit hover:bg-white hover:text-primary hover:border border-primary transition-all duration-200 ease-in-out"
         >
           <span>About Us</span>

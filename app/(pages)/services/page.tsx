@@ -5,7 +5,7 @@ import React from 'react'
 const page = () => {
   return (
     <section className='px-5 py-10'>
-      <h1 className='text-3xl md:text-[1.6rem] text-text_color text-center font-semibold'>Explore Our Expert Cloud Consulting & Training Services</h1>
+      <h1 className='text-3xl leading-10 md:text-[2rem] text-primary text-center font-semibold'>Explore Our Expert Cloud Consulting & Training Services</h1>
 
       <div className="mt-10 flex flex-col items-center justify-center">
         <div className='flex flex-col md:flex-row gap-10 w-[90%] md:w-[70%]'>
@@ -30,7 +30,7 @@ const page = () => {
         </div>
         </div>
 
-        <p className="text-gray-500 mt-14 text-lg">Ready to take your business to the next level? <Link href="/contact" className="text-primary font-semibold cursor-pointer">Book your free consultation Here Now!!</Link></p>
+        <p className="text-white rounded-xl mt-14 text-lg border py-2 px-4 bg-primary"><Link href="/contact" className="font-semibold cursor-pointer">Book your free consultation Here Now!!</Link></p>
       </div>
     </section>
   )

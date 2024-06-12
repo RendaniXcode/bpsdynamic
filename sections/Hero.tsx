@@ -24,14 +24,14 @@ const Hero = () => {
 
   return (
     <section
-      className="flex flex-col gap-20 md:flex-row md:gap-20 items-center justify-between bg-secondary px-5 py-28 rounded-xl"
+      className="flex flex-col gap-20 md:flex-row md:gap-20 justify-between bg-secondary px-5 py-28 rounded-xl"
       id="hero"
     >
       <div className="w-full  md:w-[40%] flex flex-col gap-16 mt-10">
         <div className="flex flex-col gap-4">
-          <h1 className="text-3xl leading-10 md:text-[2.5rem] font-semibold w-[100%] text-text_color md:leading-[3.3rem]">
-            <span className="text-text_color">
-              Digital Transformation and <span className=" text-primary">Cloud Services</span>
+          <h1 className="text-3xl leading-10 md:text-[2.5rem] font-semibold w-[100%] text-text_color md:leading-[3.3rem] -mt-6">
+            <span className="text-primary">
+              Digital Transformation and <span className="">Cloud Services</span>
             </span>
           </h1>
           <p className="text-gray-500">

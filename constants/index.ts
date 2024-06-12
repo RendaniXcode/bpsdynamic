@@ -14,11 +14,11 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { GiPouringChalice } from "react-icons/gi";
 import { SiRedhatopenshift } from "react-icons/si";
 import { FaCloud, FaCogs, FaDigitalOcean, FaLaptopCode, FaServer, FaSyncAlt, FaTrain } from 'react-icons/fa';
+import { TbTransformFilled } from "react-icons/tb";
 export const NavLinks = [
   {
     title: 'Home',
     path: '/',
-    link: 'hero',
   },
   {
     title: 'About',
@@ -88,7 +88,7 @@ export const Services = [
   {
     category: "Digital Transformation",
     description: "Embrace the future with our digital transformation services. We guide you through the process of integrating digital technologies into all areas of your business, fundamentally changing how you operate and deliver value to your customers.",
-    icon: FaDigitalOcean
+    icon: TbTransformFilled
   },
 ];
 
