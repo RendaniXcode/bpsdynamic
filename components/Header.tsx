@@ -98,13 +98,13 @@ const Header = () => {
               </SheetTitle>
               <SheetDescription className="flex justify-start">
                 <div className="mt-10">
-                  <ul className="flex flex-col text-left gap-10 items-center justify-center">
+                  <ul className="flex flex-col text-left gap-10">
                     {NavLinksSide.map((link) => (
                       <SheetClose asChild>
                         <Link
                           key={link.title}
                           href={pathname === "/" ? `#${link.link}` : "/"}
-                          className=" py-1 rounded-xl font-semibold hover:text-primary flex justify-center  items-center"
+                          className=" py-1 font-semibold hover:text-primary"
                         >
                           {link.title}
                         </Link>
