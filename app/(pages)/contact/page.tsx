@@ -61,13 +61,15 @@ const Contact = () => {
               </a>
             </p>
             <p className="text-gray-500 hover:text-primary transition-all duration-500 cursor-pointer">
-              128 Richard Drive, South Africa.
+             128 Ricard Drive, Midrand South Africa.
             </p>
             <a
               href="tel:+12345678901"
               className="text-gray-500 hover:text-primary transition-all duration-500 cursor-pointer"
             >
-              +27 082 454 4223
+              +27832002196
+              <br /> <br />
+              +27824544223
             </a>
           </div>
         </div>

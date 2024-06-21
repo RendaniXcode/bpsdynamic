@@ -159,7 +159,7 @@ export const ProcessData = [
 export const FooterIcons = [
   {
     icon: FaLinkedin,
-    path: "/",
+    path: "https://www.linkedin.com/company/bpsdynamic/",
   },
   {
     icon: FaFacebookSquare,
@@ -167,7 +167,7 @@ export const FooterIcons = [
   },
   {
     icon: FaSquareXTwitter,
-    path: "/",
+    path: "https://x.com/bpsdynamic?s=21",
   },
   {
     icon: FaSquareInstagram,
