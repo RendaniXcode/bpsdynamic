@@ -4,6 +4,9 @@ import { useRouter } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { useForm, ValidationError } from "@formspree/react";
+import { MdMarkEmailRead } from "react-icons/md";
+import { MdLocationPin } from "react-icons/md";
+import { HiPhone } from "react-icons/hi";
 
 const Contact = () => {
   const router = useRouter();
@@ -55,21 +58,19 @@ const Contact = () => {
             <p className="text-gray-500">
               <a
                 href="mailto:info@bpsdynamic.com"
-                className="hover:text-primary transition-all duration-500"
+                className="hover:text-primary transition-all duration-500 flex items-center gap-2"
               >
-                info@bpsdynamic.com
+                <MdMarkEmailRead size={25} className=" text-primary" /> info@bpsdynamic.com
               </a>
             </p>
-            <p className="text-gray-500 hover:text-primary transition-all duration-500 cursor-pointer">
-             128 Ricard Drive, Midrand South Africa.
+            <p className="text-gray-500 hover:text-primary transition-all duration-500 cursor-pointer  flex items-center gap-2">
+             <MdLocationPin size={25} className=" text-primary" /> 128 Ricard Drive, Midrand South Africa.
             </p>
             <a
               href="tel:+12345678901"
               className="text-gray-500 hover:text-primary transition-all duration-500 cursor-pointer"
             >
-              +27832002196
-              <br /> <br />
-              +27824544223
+             <p className="flex items-center gap-2"><HiPhone size={25} className=" text-primary" /> +27 83 200 2196, +27 82 454 4223</p>
             </a>
           </div>
         </div>
