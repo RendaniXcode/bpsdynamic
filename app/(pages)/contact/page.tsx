@@ -67,7 +67,7 @@ const Contact = () => {
              <MdLocationPin size={25} className=" text-primary" /> 128 Ricard Drive, Midrand South Africa.
             </p>
             <a
-              href="tel:+12345678901"
+              href="tel:+27 83 200 2196"
               className="text-gray-500 hover:text-primary transition-all duration-500 cursor-pointer"
             >
              <p className="flex items-center gap-2"><HiPhone size={25} className=" text-primary" /> +27 83 200 2196, +27 82 454 4223</p>
