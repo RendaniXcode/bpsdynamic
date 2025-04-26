@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "BPS Dynamic",
   description: "A Cloud Consulting Website",
   icons: {
-    icon: '/images/bpslogo.png'
-  }
+    icon: "/images/bpslogo.png",
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +25,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        {/* ✅ Google Site Verification Meta Tag */}
+        <meta
+          name="google-site-verification"
+          content="uT5QDslz2ucT9c48mLTtsf2VdOgj9Qnz94tVBdN4Lpo"
+        />
+      </head>
+      <body className={poppins.variable}>
         <Header />
-        <main className={poppins.variable}>{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
